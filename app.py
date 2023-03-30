@@ -49,7 +49,7 @@ def predict_output(inputs):
     prediction = model.predict(inputs)
     
     # Return the prediction as a string
-    return prediction
+    return 'will' if prediction == 1 else 'will not'
 
 # Create a Streamlit app
 def main():
@@ -65,7 +65,7 @@ def main():
     # Make a prediction and display the result
     if st.button('Predict'):
         prediction = predict_output(inputs)
-        st.write('The customer will', prediction, 'subscribe to a term deposit.')
+        st.write('The customer', prediction, 'subscribe to a term deposit.')
 
 
 # Run the Streamlit app
