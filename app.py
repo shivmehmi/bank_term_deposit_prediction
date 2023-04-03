@@ -6,9 +6,8 @@ import pickle
 
 
 # Load the pickled model
-with open('/pipe.pkl', 'rb') as f:
-    model = pickle.load(f)
-
+loaded_model = open("gb_model.pkl", "rb")
+model = pickle.load(loaded_model)
 
 # Define the Streamlit app
 def get_user_inputs():
