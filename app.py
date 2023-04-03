@@ -6,7 +6,7 @@ import pickle
 
 
 # Load the pickled model
-loaded_model = open("gb_model.pkl", "rb")
+loaded_model = open("pipe.pkl", "rb")
 model = pickle.load(loaded_model)
 
 # Define the Streamlit app
