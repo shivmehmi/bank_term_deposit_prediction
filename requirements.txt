@@ -138,5 +138,5 @@ webencodings==0.5.1
 Werkzeug==2.1.1
 widgetsnbextension==3.6.0
 zipp==3.8.0
-lightgbm==3.3.5
+lightgbm
 streamlit
