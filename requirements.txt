@@ -8,3 +8,4 @@ statsmodels
 streamlit
 lightgbm
 streamlit
+plotly==4.14.3
